@@ -1,0 +1,1045 @@
+@font-face {
+    font-family: 'scala_sans_scregular';
+    src: url('../typographies/scala-sans-regular-sc_39565-webfont.eot');
+    src: url('../typographies/scala-sans-regular-sc_39565-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.woff2') format('woff2'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.woff') format('woff'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.ttf') format('truetype'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.svg#scala_sans_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'scalaregular';
+    src: url('../typographies/scala-webfont.woff2') format('woff2'),
+         url('../typographies/scala-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eliticaitalic';
+    src: url('../typographies/elitica-webfont.woff2') format('woff2'),
+         url('../typographies/elitica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'criptoideregular';
+  src: url('../typographies/criptoide-webfont.woff2') format('woff2'),
+      url('../typographies/criptoide-webfont.woff') format('woff'),
+      url('../typographies/CRIPTOIDE.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* HOME */
+
+
+header, .sommaire, .layout-sidebar-first{
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+.sommaire .views-row:hover, .sommaire .views-row:hover a{
+  color: lightgrey!important;
+}
+
+.sommaire .views-field-title{
+  font-style: italic;
+}
+
+.layout-sidebar-second, .layout-sidebar-second a{
+  color: white;
+}
+
+.layout-sidebar-second h2, .layout-sidebar-second .more-link a{
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.layout-sidebar-second .views-field-field-date-h{
+  font-family: 'criptoideregular';
+  font-size: 2em;
+}
+
+.layout-sidebar-second .views-field-title a{
+  font-family: 'scalaregular';
+  font-size: 2em;
+  line-height: 1;
+  font-style: italic;
+}
+
+
+
+
+/* TEXTES VANINA */
+
+
+/* /!\ METTRE LA 'SCALA ITALIC' AUX TITRES DES TEXTES /!\ */
+
+.en-tete, .en-tete > #block-vanina-page-title > h1{
+    position: relative!important;
+    font-family: 'eliticaitalic';
+    font-size: 2rem; /* MODIF */
+    line-height: 1.3; /* MODIF */
+    z-index: 200;
+}
+
+
+.body-articles{
+    font-family: 'scalaregular';
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.body-articles blockquote{
+  font-size: 0.8rem;
+}
+
+.source-articles{
+  font-size: 1.5rem; /* MODIF */
+  font-style: italic;
+  text-decoration:underline;
+}
+
+
+
+
+
+/* TEXTES VANINA -- SMARTPHONE PORTRAIT */
+
+
+.en-tete, .en-tete > #block-vanina-page-title > h1{
+    font-size: 1.5rem;
+    line-height:1.2;
+}
+
+.source-articles{
+  font-size: 1rem;
+}
+
+.body-articles{
+    text-align: left;
+}
+
+.body-articles blockquote{
+  /*font-size: 0.9rem ou 1rem;*/
+}
+
+
+
+
+/* PAGE ETUDIANT */
+
+
+.title-views > div > #block-vanina-page-title h1 {
+font-size: 0.9rem;
+font-family: 'scala_sans_scregular';
+text-decoration: underline;
+}
+
+/* dates checkboxes */
+
+.articles-blog .option {
+  font-family: 'criptoideregular';
+  font-size: 1rem; /* MODIF */
+  color:grey;
+}
+
+/* date + h article */
+
+.layout-content .articles-blog .views-field-field-date-h .field-content {
+  font-family: 'criptoideregular';
+  font-size: 2em;
+  line-height:1; /* MODIF */
+}
+
+/* titre article */
+
+.layout-content .articles-blog .views-field-title .field-content {
+  font-family: 'scalaregular';
+  font-style: italic;
+  font-size: 1.75em;
+}
+
+.layout-content .articles-blog .views-field-field-sous-titre .field-content {
+  font-family: 'scalaregular';
+  font-style: italic;
+  font-size: 1.75em;
+}
+
+/* noms étudiants */
+
+#block-views-block-liste-site-etudiant-block-1 {
+font-family:arial;
+font-size: 0.75rem;
+}
+
+/* texte articles */
+/* h2 */
+
+.layout-content .articles-blog .views-field-body .field-content h2 {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* p */
+
+.layout-content .articles-blog .views-field-body .field-content p {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* source liens web */
+
+.layout-content .articles-blog .views-field-field-source .field-content {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* source liens web (soulignement lien) */
+
+.layout-content .articles-blog .views-field-field-source .field-content a {
+  text-decoration: underline;
+}
+
+
+
+
+/* PAGE ETUDIANT -- SMARTPHONE PORTRAIT */
+
+
+/* bloc titre catégorie */
+
+.title-views > div > #block-vanina-page-title h1 {
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+/* dates checkboxes */
+
+.articles-blog .option {
+  font-size: 1.5rem;
+}
+
+/* date + h article */
+
+.layout-content .articles-blog .views-field-field-date-h .field-content {
+  font-size: 1.5em;
+}
+
+/* titre article */
+
+.layout-content .articles-blog .views-field-title .field-content {
+  font-size: 1.25em;
+}
+
+.layout-content .articles-blog .views-field-field-sous-titre {
+  padding-left: 20px;
+}
+
+/* texte articles */
+/* h2 */
+
+.layout-content .articles-blog .views-field-body .field-content h2 {
+  font-size: 1rem;
+}
+
+/* p */
+
+.layout-content .articles-blog .views-field-body .field-content p {
+  font-size: 1rem;
+}
+
+/* source liens web */
+
+.layout-content .articles-blog .views-field-field-source .field-content {
+  font-size: 1rem;
+}
+
+/* Fichier mis à jour le 10/10/2017 */
+
+/* HOME */
+
+/* TEXTES VANINA */
+/* > SMARTPHONE PORTRAIT */
+
+/* PAGE ETUDIANT */
+/* > SMARTPHONE PORTRAIT */
+
+
+
+
+/* HOME */
+
+
+/* Header */
+
+header{
+  width: 300px;
+  padding-top: 80px;
+  margin-left: 120px;
+}
+
+/* Sommaire */
+
+.sommaire{
+  float: left;
+  /*height:100%;*/
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.sommaire .views-row{
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.sommaire .views-field-title::before{
+  content:"— ";
+}
+
+.source-articles a {
+  text-decoration: underline;
+}
+
+.sommaire .views-element-container > div{
+  /*display: inline-grid;*/
+  /*grid-template-columns: 200px 400px;*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.sommaire .views-element-container > div .views-row{
+  /*grid-column: auto;*/
+}
+
+/*layout-sidebar-first-credit*/
+.layout-sidebar-first{
+  float: right;
+  margin-right: 15vw;
+  margin-top: -100px;
+}
+
+.layout-sidebar-first h2{
+  display: none;
+}
+
+.layout-sidebar-first .views-field-body .field-content p:nth-child(1),
+.layout-sidebar-first .views-field-body .field-content p:nth-child(2  ){
+  margin-bottom: 20px;
+}
+
+
+/*Bandes*/
+/*.layout-sidebar-second{
+  display: none;
+}*/
+
+.layout-sidebar-second .more-link{
+  float: right;
+  margin-top: -60px;
+  margin-right: 20px;
+}
+
+.layout-sidebar-second .views-field-field-date-h .field-content:before{
+  background-image: url('../../images/pointv.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content:"";
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+.layout-sidebar-second .views-element-container{
+  position:fixed;
+  width: 30vw;
+  height: 100%;
+  top: 0;
+  float: right;
+  cursor: pointer;
+  overflow: auto;
+  cursor: move;
+  /*empeche selection*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#block-views-block-page-etudiant-block-1{
+  background: #34f0b9;
+}
+
+.degrader{
+  z-index: 0;
+}
+
+#block-views-block-page-etudiant-block-1 .degrader{
+  width: 30vw;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(rgba(52, 240, 185, 1),rgba(255, 255, 255, 0));
+}
+
+#block-views-block-une-saison-graphique-block-1{
+    background: #6050dc;
+}
+
+#block-views-block-une-saison-graphique-block-1 .degrader{
+  width: 30vw;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(rgba(96, 80, 220, 1),rgba(255, 255, 255, 0));
+}
+
+#block-views-block-expositions-block-1{
+  background: #ff4b5a;
+}
+
+#block-views-block-expositions-block-1 .degrader{
+  width: 30vw;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(rgba(255, 75, 90, 1),rgba(255, 255, 255, 0));
+}
+
+.layout-sidebar-second > div .views-element-container:nth-child(1){
+  z-index: 5;
+  left: 95vw;
+}
+
+.layout-sidebar-second  > div .views-element-container:nth-child(2){
+  left: 90vw;
+  z-index: 4;
+}
+
+.layout-sidebar-second > div .views-element-container:nth-child(3){
+  left: 85vw;
+  z-index: 3;
+}
+
+/*.fluxalone{
+  left:40vw!important;
+}*/
+
+.hover{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background: white;
+  z-index: 3;
+  -webkit-transition: background 0.2s;
+   transition: background 0.2s;
+}
+
+.opacity{
+  -webkit-transition: background 0.2s;
+   transition: background 0.2s;
+}
+
+.hover .title-views .articles-blog img{
+  filter: opacity(0.2);
+  -webkit-filter: opacity(0.2);
+  -moz-filter: opacity(0.2);
+  -ms-filter: opacity(0.2);
+  -o-filter: opacity(0.2);
+  -webkit-transition: filter 0.1s;
+   transition: filter 0.1s;
+}
+
+.layout-sidebar-second img{
+  width: 100%;
+  height: 100%;
+}
+
+.layout-sidebar-second li > a{
+  width: 25vw;
+  height: auto;
+}
+
+.layout-sidebar-second .views-element-container h2{
+  padding: 10px 0 0 20px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 70%;
+  z-index: 9;
+}
+
+.layout-sidebar-second .more-link{
+  position: relative;
+}
+
+.layout-sidebar-second .views-field-field-date-h ,.layout-sidebar-second .views-field-title{
+  padding: 0px 10px;
+}
+
+.layout-sidebar-second .views-field-title{
+  margin-bottom: 20px;
+}
+
+.layout-sidebar-second .views-field-field-date-h{
+  margin-top: 20px;
+}
+
+.bouton_retour{
+  position: fixed;
+  bottom: 40px;
+  width: 60px;
+  height: 40px;
+  background-image: url(../../images/btn_ranger.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/*#block-formulairederecherche #edit-actions{
+}*/
+
+
+
+
+/* TEXTES VANINA*/
+
+
+article{
+  margin-left: 100px;
+}
+
+.en-tete{
+  position: fixed!important;
+  background: white;
+  top: 0px;
+  padding-top: 30px;
+  padding-bottom:20px; /* MODIF */
+  width: 53vw; /* MODIF */
+  /*width: 80vw;*/
+  z-index: 1;
+}
+
+.en-tete h1{
+  width: 53vw; /* MODIF */
+  /*width: 55vw;*/
+}
+
+.sous-titre-articles{
+  max-width: 53vw; /* MODIF */
+  /*max-width: 800px;*/
+}
+
+.date-articles{
+  margin-right: 15px;
+  float: left;
+}
+
+.source-articles{
+  margin-top: 25px; /* MODIF */
+  /*margin-top: 10px;*/
+  margin-left: -15px;
+  max-width: 53vw; /* MODIF */
+}
+
+.icone-croix{
+  position: fixed;
+  right: 15vw;
+  top: 10px;
+  width: 15px;
+  height: auto;
+  z-index: 999;
+}
+
+.icone-croix img{
+  width: 100%;
+  height: auto;
+}
+
+.en-tete .source-articles a::before{
+  background-image: url('../../images/fleche.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 55px;
+  vertical-align: middle;
+  content:"";
+}
+
+.body-articles{
+  width: 35vw;
+  float: left;
+  margin: 100px 10vw 30px 6vw; /* MODIF */
+  /*margin: 200px 10vw 50px 10vw;*/
+
+
+}
+
+.body-articles blockquote{
+  position: absolute;
+  width: 10vw;
+  margin-left: 40vw;
+  margin-top: -20px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.body-articles blockquote:hover{
+  overflow: visible;
+}
+
+.body-articles img{
+  margin: 20px 0 0px 0;
+  width: 60%;
+  height: auto;
+}
+
+.body-articles p{
+  margin-top:0; /* MODIF */
+  /* margin-top:10px; */
+}
+
+
+
+
+/* TEXTES VANINA -- TABLETTE PAYSAGE */
+
+
+
+
+
+/* TEXTES VANINA -- SMARTPHONE PORTRAIT */
+
+
+article{
+  margin-left: 20px;
+}
+
+.en-tete{
+  width: 90vw;
+  height:200px;
+}
+
+.en-tete h1{
+  width: 90vw;
+}
+
+.sous-titre-articles{
+  max-width: 90vw;
+}
+
+.source-articles{
+  max-width: 90vw;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.en-tete .source-articles a::before{
+  display: none;
+}
+
+.body-articles{
+  width: 90vw;
+  margin: 100px 0 30px 0;
+}
+
+.body-articles blockquote{
+  width: 85px;
+  margin-left: 0;
+  margin-top: 100px;
+  /* margin-top à définir > mettre en dessous du texte */
+  display:none;
+}
+
+
+
+
+
+/* PAGE ETUDIANT */
+
+
+/* bloc titre catégorie */
+
+.title-views > div > #block-vanina-page-title{
+  top:0;
+  left:0;
+  /*height:100vh;*/
+  width:10vw;
+  position:fixed;
+  z-index:6; /* MODIF */
+  /*z-index:999;*/
+
+}
+
+/* titre catégorie */
+
+.title-views > div > #block-vanina-page-title h1 {
+  padding: 10px 0 0 20px;
+}
+
+/* liste noms */
+
+#block-views-block-liste-site-etudiant-block-1 {
+  top:245px; /* MODIF */
+  left:20px;
+  position:fixed;
+  width:9vw;
+  word-wrap:break-word;
+  z-index:6; /* MODIF */
+  /*z-index:999;*/
+}
+
+/* contenu (checkboxes + article) */
+
+.layout-content .articles-blog {
+  top:150px;
+  left:15vw;
+  width:70vw;
+  height:90vh;
+  position:absolute;
+}
+
+/* filet séparateur checkboxes -- article */
+/* groupe checkboxes */
+
+.articles-blog .views-exposed-form {
+top:0;
+background-color:white;
+padding-top:100px; /* MODIF */
+/*padding-top:60px;*/
+border-bottom:1px solid grey;
+width:70vw;
+position:fixed;
+height:60px; /* MODIF */
+/*height:100px;*/
+z-index:5; /* MODIF */
+/*z-index:1;*/
+}
+
+/* checkboxes */
+/* MODIF */
+
+#edit-created--wrapper {
+  display:inline-block;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position:absolute;
+  left:-9999px;
+}
+
+/* on prépare le label */
+/* Aspect général de la coche */
+[type="checkbox"]:not(:checked) + label::before{
+  content: "";
+  border: 1px solid grey;
+  position:absolute;
+  width: 13px;
+  height: 13px;
+  line-height:1.2;
+  left:0;
+  transition: all .2s; /* on prévoit une animation */
+}
+
+[type="checkbox"]:checked + label::before {
+  content: '✕';
+  border: 1px solid grey;
+  position:absolute;
+  width: 13px;
+  height: 13px;
+  line-height:1.2;
+  left:0;
+  transition: all .2s; /* on prévoit une animation */
+}
+
+.articles-blog .option {
+  margin-left:20px;
+  vertical-align:bottom;
+}
+
+
+/* boutton 'Apply' */
+
+.articles-blog #edit-actions {
+  display:inline-block; /* MODIF */
+  margin-left:10px; /* MODIF */
+}
+
+#edit-submit-etudiant {
+  /*display:none;*/
+  float:left; /* MODIF */
+  border:1px solid grey; /* MODIF */
+  padding:3px;
+  background-color:white; /* MODIF */
+  color:grey; /* MODIF */
+}
+
+/* date + h article (espace entre filet et article + avant chaque nouvel article) */
+
+.layout-content .articles-blog .views-row{
+  /*padding-top: 60px;*/ /* MODIF */
+  padding-bottom:70px; /* MODIF */
+  /*padding-bottom: 50px;*/
+}
+
+/* date + h (alignement texte + espace avec titre) */
+
+.layout-content .articles-blog .views-field-field-date-h{
+  float: left;
+  margin-right: 20px;
+  margin-top: 17px;
+}
+
+/* date + h (puces typo) */
+
+.layout-content .articles-blog .views-field-field-date-h .field-content:before {
+  background-image: url('../../images/pointv.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content:"";
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+
+/* texte articles (marge sup) + indentation */
+/* p, h2 */
+
+.layout-content .articles-blog .views-field-body .field-content {
+  margin: 20px 0 0 80px; /* MODIF */
+}
+
+/* sources articles (indentation) */
+
+.layout-content .articles-blog .views-field-field-source .field-content {
+  padding: 20px 0 0 80px; /* MODIF */
+}
+
+/* bloc global images articles */
+
+.layout-content .articles-blog .views-field-field-images .field-content ul {
+position:relative;
+margin:10px 0 0 70px; /* MODIF */
+/*margin:10px 0 0 5%; */
+width:70vw;
+z-index:4; /* MODIF */
+/*z-index:997;*/
+}
+
+/* bloc indivuel pour chacune des images articles */
+
+.layout-content .articles-blog .views-field-field-images .field-content li {
+display:inline-block;
+width:20vw;
+margin:10px 10px 0 10px;
+}
+
+/* images articles */
+
+.layout-content .articles-blog .views-field-field-images .field-content img {
+position:relative;
+width:100%;
+height:auto;
+}
+
+
+
+
+
+/* PAGE ETUDIANT -- SMARTPHONE PORTRAIT */
+
+
+/* suppression liste noms */
+
+#block-views-block-liste-site-etudiant-block-1 {
+  display:none;
+}
+
+/* contenu (checkboxes + article) ferré à gauche */
+
+.layout-content .articles-blog {
+  top:100px;
+  left:0;
+  width:95vw;
+}
+
+/* chechboxes */
+
+[type="checkbox"]:not(:checked) + label::before{
+  border:none;
+  content: "";
+  width: 45px;
+  height: 25px;
+  left:0;
+  transition: all .2s; /* on prévoit une animation */
+}
+
+[type="checkbox"]:checked + label::before {
+  border:none;
+  content: "";
+  width: 45px;
+  height: 25px;
+  left:0;
+  transition: all .2s; /* on prévoit une animation */
+}
+
+[type="checkbox"]:checked + label {
+  background-color:#E8E8E8;
+  color:white;
+  transition: all .2s;
+}
+
+/* label (dates) */
+
+.articles-blog .option {
+  padding: 6px 20px 0px 20px;
+  line-height: 1.6;
+  border: 1px solid grey;
+  margin-left:-6px;
+}
+
+.articles-blog #edit-created > div {
+  display:inline-block;
+}
+
+/* boutton 'Apply' */
+
+.articles-blog #edit-actions {
+  margin-left:0;
+  vertical-align:text-bottom;
+}
+
+#edit-submit-etudiant {
+  padding: 6px 20px 6px 20px;
+  line-height: 1.6;
+  margin-left: -9px;
+  font-size: 1rem;
+}
+
+/* espace 'top' + supression filet séparateur (groupe checkboxes) */
+
+.articles-blog .views-exposed-form {
+  top:-35px;
+  margin-left:-2px;
+  border-bottom:none;
+  width:100vw;
+  height:74px;
+}
+
+
+
+/* titres, texte articles (marge gauche > indentation) */
+
+.layout-content .articles-blog .views-field-field-date-h .field-content {
+  padding-left:20px;
+  margin-top:-14px;
+  margin-right:0;
+
+}
+
+.layout-content .articles-blog .views-field-title {
+   padding-left:20px;
+}
+
+.layout-content .articles-blog .views-field-field-sous-titre {
+  padding-left: 20px;
+}
+
+.layout-content .articles-blog .views-field-body .field-content {
+  margin: 20px 0 0 20px;
+}
+
+
+/* sources articles (indentation) */
+
+.layout-content .articles-blog .views-field-field-source .field-content {
+  padding: 20px 0 0 20px; /* MODIF */
+}
+
+
+/* bloc global images articles */
+
+.layout-content .articles-blog .views-field-field-images .field-content ul {
+position:relative;
+padding:0;
+margin:20px 0 0 0;
+width:100vw;
+}
+
+
+/* bloc indivuel pour chacune des images articles */
+
+.layout-content .articles-blog .views-field-field-images .field-content li {
+width:100vw;
+margin:0;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------*/
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  width: 100%;
+  background: white;
+}
+
+footer > div{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.index{
+  z-index: 999;
+  position: fixed;
+  bottom: 0px;
+  left: 30vw;
+}
+
+#edit-submit{
+  width: 20px;
+  height: 19px;
+  margin-left: -24px;
+  margin-bottom: 1px;
+  background-image: url("../../images/loupe.svg")!important;
+  background-size: 20px 20px!important;
+  background-repeat: no-repeat!important;
+  vertical-align: bottom;
+}
+
+#edit-submit{
+  border: 1px solid black;
+  background: white;
+}
+
+#edit-keys{
+  width: 30vh;
+  border: 1px solid black;
+}

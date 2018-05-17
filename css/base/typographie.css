@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'scala_sans_scregular';
+    src: url('../typographies/scala-sans-regular-sc_39565-webfont.eot');
+    src: url('../typographies/scala-sans-regular-sc_39565-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.woff2') format('woff2'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.woff') format('woff'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.ttf') format('truetype'),
+         url('../typographies/scala-sans-regular-sc_39565-webfont.svg#scala_sans_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scalaitalic';
+    src: url('../typographies/ufonts.com_scala-italic-webfont.eot');
+    src: url('../typographies/ufonts.com_scala-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../typographies/ufonts.com_scala-italic-webfont.woff2') format('woff2'),
+         url('../typographies/ufonts.com_scala-italic-webfont.woff') format('woff'),
+         url('../typographies/ufonts.com_scala-italic-webfont.ttf') format('truetype'),
+         url('../typographies/ufonts.com_scala-italic-webfont.svg#scalaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scalaregular';
+    src: url('../typographies/scala-webfont.woff2') format('woff2'),
+         url('../typographies/scala-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eliticaitalic';
+    src: url('../typographies/elitica-webfont.woff2') format('woff2'),
+         url('../typographies/elitica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'criptoideregular';
+  src: url('../typographies/criptoide-webfont.woff2') format('woff2'),
+      url('../typographies/criptoide-webfont.woff') format('woff'),
+      url('../typographies/CRIPTOIDE.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ header,
+ .layout-sidebar-first{
+  font-family: 'scalaregular';
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.home h3,
+.home p{
+  font-family: 'scalaregular';
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+
+#sommaire a{
+  font-family: 'scalaitalic';
+}
+
+#sommaire .views-row:hover a{
+  color: lightgrey!important;
+}
+
+.layout-sidebar-second, .layout-sidebar-second a{
+  color: white;
+}
+
+.layout-sidebar-second h2, .layout-sidebar-second .more-link a{
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.layout-sidebar-second .views-field-field-date-h{
+  font-family: 'criptoideregular';
+  font-size: 2.7em;
+  line-height: 1;
+  margin-top: 30px;
+}
+
+.layout-sidebar-second .views-field-title a{
+  font-size: 2.7em;
+  line-height: 1;
+}
+
+.layout-sidebar-second .views-field-title a:nth-child(1){
+  font-family: 'eliticaitalic';
+  text-decoration: underline;
+}
+
+.layout-sidebar-second .views-field-title a:nth-child(2){
+  font-family: 'scalaitalic';
+}
+
+/* Article */
+
+.en-tete .date{
+  float: left;
+  margin-right: 5px;
+}
+
+.en-tete, .en-tete h2{
+  font-family: 'scalaitalic';
+  font-size: 2rem;
+  line-height: 1.3;
+  z-index: 200;
+}
+
+.source{
+  font-size: 1.5rem;
+}
+
+/* ///////////////////////////////////////// */
+
+.body-articles{
+    font-family: 'scalaregular';
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.body-articles blockquote{
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+h6{
+  font-family: 'scala_sans_scregular';
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+/*marjo*/
+.articles h1 {
+font-size: 0.9rem;
+font-family: 'scala_sans_scregular';
+text-decoration: underline;
+text-transform: uppercase;
+}
+
+/* dates checkboxes */
+.articles .option {
+  font-family: 'criptoideregular';
+  font-size: 1rem;
+  color:grey;
+}
+
+/* date + h article */
+.articles .field-content span{
+  margin-right: 10px;
+}
+
+.articles .field-content span:nth-child(1){
+  font-family: 'criptoideregular';
+  font-size: 2em;
+  line-height:1;
+}
+
+/* titre article */
+.articles .field-content span:nth-child(3) {
+  font-family: 'eliticaitalic';
+  font-size: 1.75em;
+}
+
+.articles .field-content span:nth-child(4){
+  font-family: 'scalaitalic';
+  font-size: 1.75em;
+}
+
+
+/* noms étudiants */
+#block-views-block-liste-site-etudiant-block-1 {
+font-family:arial;
+font-size: 0.75rem;
+}
+
+/* texte articles */
+/* h2 */
+.articles .views-field-body .field-content h2 {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* p */
+.articles .views-field-body .field-content p {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* source liens web */
+.articles .views-field-field-source .field-content {
+  font-family: 'scalaregular';
+  font-size: 1rem;
+}
+
+/* source liens web (soulignement lien) */
+.articles .views-field-field-source .field-content a {
+  text-decoration: underline;
+}
+
+.more-link, .layout-sidebar-second h2{
+  font-family: 'scala_sans_scregular';
+  text-transform: uppercase;
+}

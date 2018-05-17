@@ -1,0 +1,15 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/base/default.css: {}
+      css/base/typographie.css: {}
+      css/base/elements.css: {}
+
+  js:
+    js/jquery-1.12.4.js: {}
+    js/jquery-ui.js: {}
+    js/script.js: {}
+
+  dependencies:
+    - core/jquery

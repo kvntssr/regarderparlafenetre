@@ -1,0 +1,30 @@
+name: vanina
+type: theme
+description: 'Theme crée par <a href="https:kevintessier.net">Kévin Tessier</a>.'
+# version: VERSION
+# core: 8.x
+base theme: false
+
+# Information added by Drupal.org packaging script on 2017-02-01
+version: '8.3.1'
+core: '8.x'
+project: 'drupal'
+datestamp: 1485975642
+
+libraries:
+  - vanina/global-styling
+
+base theme: classy
+
+# Regions
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar Second'
+  footer: Footer
+
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
