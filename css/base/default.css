@@ -1,6 +1,5 @@
 *{
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
@@ -34,7 +33,10 @@ ul, li{
 img{
   vertical-align: bottom;
   -webkit-transition: filter 0.1s; /* Safari */
+   -webkit-transition: -webkit-filter 0.1s;
+   transition: -webkit-filter 0.1s;
    transition: filter 0.1s;
+   transition: filter 0.1s, -webkit-filter 0.1s;
 }
 
 a {
